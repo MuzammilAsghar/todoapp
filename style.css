@@ -1,0 +1,71 @@
+
+ul li{
+	color: white;
+}
+.todo_box{
+	background: black !important;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 10px 0px 44px 0px;
+    margin-top: 109px;
+    min-height: 500px;
+}
+#list {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    width: 381px;
+    text-align: left;
+}
+
+#todo_item{
+    outline: none;
+    border: none;
+    border-radius: 67px;
+    background: white;
+    color: black !important;
+    padding: 8px 8px 8px 16px;
+    width: 287px;
+}
+.btns{
+	color: #E00;
+	font-family: 'Hind Siliguri', sans-serif;
+	background-color: lime;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+}
+.btns:hover{
+	opacity: 0.7;
+}
+.btns i {
+    font-size: 19px;
+    vertical-align: middle;
+    color: black;
+}
+.dlt_btn,.edit_btn{
+	background: none;
+	border: none;
+	float: right;
+}
+.dlt_btn{
+	color: red;
+}
+#list_box ul li{
+	border-bottom: 2px solid white;
+	padding: 10px 0px;
+}
+h1{
+	margin-bottom: 33px !important;
+}
+span{
+	color: lime;
+	font-weight: 600;
+}
+.dlt_btn:focus, .edit_btn:focus {
+    border: none;
+    outline: none;
+}
